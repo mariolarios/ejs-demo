@@ -1,6 +1,6 @@
 const taskRouter = require("./routes/tasks");
 const setMessage = require("./middleware/message");
-
+console.log("hello world");
 require("dotenv").config();
 const connectDB = require("./db/connect");
 const session = require("express-session");
